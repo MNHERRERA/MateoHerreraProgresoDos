@@ -6,33 +6,37 @@
 
     <ScrollView>
         <VerticalStackLayout
-      Padding="30"
-      Spacing="20"
-      VerticalOptions="Center">
-
+            Padding="30"
+            Spacing="20"
+            VerticalOptions="Center">
+    
             <!-- Título -->
             <Label 
-        Text="Aplicación de Mateo Herrera ¿Listo para los chistes malos?" 
-        FontSize="32" 
-        HorizontalOptions="Center" 
-        FontAttributes="Bold"/>
+                Text="Aplicación de Mateo Herrera ¿Listo para los chistes malos?" 
+                FontSize="32" 
+                HorizontalOptions="Center" 
+                FontAttributes="Bold"/>
 
             <!-- Imagen representativa -->
             <Image Source="risamono.jpeg"
-       HeightRequest="150"
-       WidthRequest="150"
-       HorizontalOptions="Center"/>
+                HeightRequest="150"
+                WidthRequest="150"
+                HorizontalOptions="Center"/>
 
 
             <!-- Botón 1 -->
                 <Button 
-        Text="Ir a Chistes"
-        Clicked="OnChistesClicked"/>
+                    Text="Ir a Chistes"
+                     Clicked="OnChistesClicked"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"/>
 
                 <!-- Botón 2 -->
                 <Button 
-        Text="Acerca de"
-        Clicked="OnAboutClicked"/>
+                    Text="Acerca de"
+                    Clicked="OnAboutClicked"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"/>
 
         </VerticalStackLayout>
     </ScrollView>

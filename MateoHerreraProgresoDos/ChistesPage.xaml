@@ -20,9 +20,10 @@
 
         <!-- Botón fijo en la parte inferior -->
         <Button Text="Otro chiste"
-                AbsoluteLayout.LayoutBounds="0.5,1,0.9,60"
-                AbsoluteLayout.LayoutFlags="WidthProportional"
+                AbsoluteLayout.LayoutBounds="0,1,1,60"
+                AbsoluteLayout.LayoutFlags="WidthProportional, PositionProportional"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
                 Clicked="OnObtenerChisteClicked"/>
-
     </AbsoluteLayout>
 </ContentPage>
