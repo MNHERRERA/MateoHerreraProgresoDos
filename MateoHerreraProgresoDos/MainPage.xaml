@@ -12,13 +12,13 @@
 
             <!-- Título -->
             <Label 
-        Text="Mateo Herrera" 
+        Text="Aplicación de Mateo Herrera ¿Listo para los chistes malos?" 
         FontSize="32" 
         HorizontalOptions="Center" 
         FontAttributes="Bold"/>
 
             <!-- Imagen representativa -->
-            <Image Source="https://via.placeholder.com/150"
+            <Image Source="risamono.jpeg"
        HeightRequest="150"
        WidthRequest="150"
        HorizontalOptions="Center"/>
